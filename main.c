@@ -117,9 +117,9 @@ int main(void)
     // Player init
     struct point player = { 2.5, 2.5 };
     double theta = 0.0;
-    const double d0 = 0.025;
-    const double dy = 0.025;
-    const double dx = 0.025;
+    const double d0 = 0.010;
+    const double dy = 0.010;
+    const double dx = 0.010;
     // Game loop
     const uint8_t* const key = SDL_GetKeyboardState(NULL);
     for(;;)
